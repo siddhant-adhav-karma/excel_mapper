@@ -1,0 +1,13 @@
+input / source
+output / target
+
+many to one mapping
+(source1 , source2 , sourcen) -> target
+transformation types
+- sum
+- concat
+- average
+- unique
+- count
+- count unique from one column
+- raw
