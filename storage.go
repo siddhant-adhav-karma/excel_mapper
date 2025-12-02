@@ -23,7 +23,6 @@ type DBColumnMapping struct {
 	Formula   string         `bson:"formula,omitempty" json:"formula,omitempty"`
 	Params    map[string]any `bson:"params,omitempty" json:"params,omitempty"`
 	Default   any            `bson:"default,omitempty" json:"default,omitempty"`
-	Unique    bool           `bson:"unique,omitempty" json:"unique,omitempty"`
 }
 
 type MappingStorage struct {
